@@ -71,12 +71,12 @@ def find_calibration_values(device, isLeft: bool):
             print('\033[1A',end='')
             print('\x1b[2K',end='')
 
-        """left = {"hmin":lhmin, "vmin":lvmin, 
+        left = {"hmin":lhmin, "vmin":lvmin, 
                 "hmax":lhmax, "vmax":lvmax, 
                 "hmid":(lhmax+lhmin)//2, "vmid":(lvmax+lvmin)//2}
         right = {"hmin":rhmin, "vmin":rvmin, 
                  "hmax":rhmax, "vmax":rvmax, 
-                 "hmid":(rhmax+rhmin)//2, "vmid":(rvmax+rvmin)//2}"""
+                 "hmid":(rhmax+rhmin)//2, "vmid":(rvmax+rvmin)//2}
     print()
     return left, right
 
