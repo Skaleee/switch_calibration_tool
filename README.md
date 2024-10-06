@@ -3,11 +3,11 @@ I made those scripts to calibrate my Switch Pro Controller, where I swapped the 
 # References
 The code in this project is based on the following projects. If you want to know more indepth how the calibration settings and others are saved to the controller, check out **SPI and HID notes** or **HID API usage** for implementation details.
 
-**SPI and HID notes**: [https://github.com/dekuNukem/Nintendo_Switch_Reverse_Engineering](dekuNukem/Nintendo_Switch_Reverse_Engineering)
+**SPI and HID notes**: https://github.com/dekuNukem/Nintendo_Switch_Reverse_Engineering
 
-**Joycon Toolkit**: [https://github.com/CTCaer/jc_toolkit](CTCaer/jc_toolkit)
+**Joycon Toolkit**: https://github.com/CTCaer/jc_toolkit
 
-**HID API usage**:[[https://github.com/shinyquagsire23/HID-Joy-Con-Whispering](shinyquagsire23/HID-Joy-Con-Whispering)]
+**HID API usage**: https://github.com/shinyquagsire23/HID-Joy-Con-Whispering
 # Setup
 **FIRST BACKUP YOUR SPI** USING **JoyCon Toolkit**. I am in no way responsible for anything that happens to your controller by using this project.
 
