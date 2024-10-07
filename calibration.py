@@ -205,7 +205,7 @@ if __name__ == "__main__":
     changeCalibrationValue(left, "vmid",0x6e4+0x3b)
     changeCalibrationValue(left, "vmax",0x600)
 
-    print(writeCalibration(a,"Factory",True,left))
+    #print(writeCalibration(a,"Factory",True,left))
     find_calibration_values(a, True)
 
     #controller_actions.copyCalibration(a,"User")
