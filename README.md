@@ -1,5 +1,8 @@
 # Calibration tools for Switch Pro Controller
 I made those scripts to calibrate my Switch Pro Controller to be usable with both Switch and PC, as I swapped the sticks out with hall effect sticks (Ginful V3, other ones are also out there) and set the magnets to get the best circularity with the magnets, but which also resulted in offset centerpoints. Joycon Toolkit has similar functions, but can only adjust the calibration settings for Switch, not the ones that PC uses. This project runs using simple Python, so everyone (and I) can easily understand and modify it when needed.
+
+**Note**, that these scripts are meant to be modified. This is not a one-click calibration tool. I made these scripts to more easily interface with the controller, so you don't need to write the connection code and similar yourself.  
+If you don't understand something about the calibration I recommend reading through the SPI and HID notes I've linked under References.
 # References
 The code in this project is based on the following projects. If you want to know more indepth how the calibration settings and others are saved to the controller, check out **SPI and HID notes** or **HID API usage** for implementation details.
 
